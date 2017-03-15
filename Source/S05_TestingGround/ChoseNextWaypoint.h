@@ -21,5 +21,9 @@ protected:
 	//This creates a variable in our c++ and we can use it to get information
 	UPROPERTY(EditAnywhere, Category = "Blackboard")
 	struct FBlackboardKeySelector IndexKey;
+
+	//This creates a variable in our c++ and we can use it to get information
+	UPROPERTY(EditAnywhere, Category = "Blackboard")
+	struct FBlackboardKeySelector WaypointKey;
 	
 };
